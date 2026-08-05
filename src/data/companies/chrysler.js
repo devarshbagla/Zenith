@@ -1,0 +1,190 @@
+export const chrysler = {
+  slug: 'chrysler',
+  name: 'Chrysler',
+  industry: 'Automotive',
+  founded: 1925,
+  publishedAt: '2026-07-29',
+  headquarters: 'Auburn Hills, Michigan, USA',
+  logline: 'A $1.1 billion loss, a $1-a-year CEO salary, and a government loan guarantee Congress approved by a single vote.',
+  turnaroundPeriod: '1979–1983',
+  heroKicker: '1979 · Nine Days From Bankruptcy',
+  heroTitle: 'Chrysler: The Turnaround That Wrote the Textbook',
+  heroDeck:
+    'By 1979, Chrysler was posting the largest annual loss in American corporate history and had, by its own treasurer\'s account, roughly enough cash to last nine more days. Lee Iacocca\'s recovery — controversial, government-guaranteed, and repaid seven years early — became the case study every business turnaround since has been measured against.',
+  accent: { from: '#0a0a0b', via: '#2b2f36', to: '#8b98a8' },
+  seo: {
+    metaTitle: 'Chrysler Turnaround: How Lee Iacocca Saved Chrysler From Bankruptcy',
+    metaDescription:
+      'How Lee Iacocca secured a federal loan guarantee, cut his own salary to $1, and repaid the government seven years early — the corporate turnaround case study that defined the genre.',
+    keywords: [
+      'chrysler turnaround story',
+      'lee iacocca chrysler ceo',
+      'chrysler bailout 1979',
+      'chrysler loan guarantee act',
+      'chrysler bankruptcy 1979',
+      'chrysler corporate turnaround case study',
+    ],
+  },
+  recoveryStat: {
+    metric: 'Annual Profit',
+    before: { label: '1980', value: '-$1.7B loss' },
+    after: { label: '1984', value: '$2.4B profit' },
+  },
+  quickFacts: [
+    { label: 'Founded', value: '1925, by Walter P. Chrysler' },
+    { label: 'Low Point', value: '1979–1980 — combined losses of roughly $2.7 billion over two years' },
+    { label: 'Turnaround Leader', value: 'Lee Iacocca, hired as CEO in November 1978' },
+    { label: 'Turnaround Window', value: '1979 – 1983' },
+    { label: 'Federal Support', value: '$1.5 billion in loan guarantees under the Chrysler Loan Guarantee Act' },
+    { label: 'Loan Repayment', value: 'Fully repaid in 1983, seven years ahead of schedule' },
+    { label: 'Signature Move', value: 'The K-car platform and, in 1984, the minivan' },
+  ],
+  timeline: [
+    { year: '1925', phase: 'rise', title: 'Walter Chrysler Founds the Company', description: 'Walter P. Chrysler reorganizes the failing Maxwell Motor Company into the Chrysler Corporation, quickly establishing it alongside Ford and General Motors as one of Detroit\'s "Big Three" automakers.' },
+    { year: '1928', phase: 'rise', title: 'Plymouth, DeSoto, and Dodge', description: 'Chrysler expands rapidly through acquisitions and new brands, becoming a full-line automaker competing across price points against Ford and GM.' },
+    { year: '1970s', phase: 'fall', title: 'Falling Behind on Quality and Efficiency', description: 'Chrysler\'s vehicle quality and manufacturing efficiency lag its Detroit rivals, while the company is slower than competitors to respond to changing consumer demand.' },
+    { year: '1973–1979', phase: 'fall', title: 'Two Oil Shocks', description: 'The 1973 and 1979 oil crises drive American buyers toward smaller, fuel-efficient cars — a segment where Chrysler\'s largely truck- and full-size-car-heavy lineup is poorly positioned, and where Japanese imports gain ground fastest.' },
+    { year: '1978', phase: 'crisis', title: 'Lee Iacocca Is Hired', description: 'Iacocca, fired months earlier as President of Ford by Henry Ford II, is hired as Chrysler\'s CEO in November 1978, inheriting a company already in freefall.' },
+    { year: '1979', phase: 'crisis', title: 'Chrysler Nears Collapse', description: 'Chrysler reports a $1.1 billion annual loss — at the time the largest single-year loss in American corporate history — with the company reportedly down to roughly nine days of operating cash.' },
+    { year: '1979', phase: 'crisis', title: 'Iacocca Asks Congress for Help', description: 'Iacocca lobbies Congress directly for federal loan guarantees, arguing that Chrysler\'s collapse would cost hundreds of thousands of jobs across the company and its supplier network.' },
+    { year: '1980', phase: 'turnaround', title: 'The Chrysler Loan Guarantee Act', description: 'Congress passes the Chrysler Loan Guarantee Act, authorizing $1.5 billion in federal guarantees on private loans — not a direct cash bailout — narrowly approved amid intense public debate over corporate bailouts.' },
+    { year: '1980', phase: 'turnaround', title: 'A $1 Salary and Deep Concessions', description: 'Iacocca cuts his own salary to $1 a year as a symbolic gesture, closes plants, cuts the workforce from roughly 140,000 toward 70,000, and negotiates significant wage concessions from the United Auto Workers union.' },
+    { year: '1981', phase: 'turnaround', title: 'The K-Cars Launch', description: 'The Plymouth Reliant and Dodge Aries — compact, fuel-efficient "K-car" platform vehicles rushed into production — become the foundation of Chrysler\'s recovery, selling well ahead of projections.' },
+    { year: '1983', phase: 'turnaround', title: 'The Loan Repaid, Seven Years Early', description: 'Chrysler repays the entire government-guaranteed loan in full, seven years ahead of schedule, and the U.S. Treasury profits from warrants issued as part of the original deal.' },
+    { year: '1984', phase: 'zenith', title: 'The Minivan Redefines a Segment', description: 'Chrysler launches the Dodge Caravan and Plymouth Voyager, inventing the modern minivan category and posting a then-record $2.4 billion annual profit the same year.' },
+  ],
+  sections: [
+    {
+      id: 'rise',
+      eyebrow: 'Rise',
+      heading: 'The Third Member of Detroit\'s Big Three',
+      paragraphs: [
+        'Chrysler traces its founding to 1925, when Walter P. Chrysler — an engineer who had turned around the ailing Buick division before striking out on his own — reorganized the struggling Maxwell Motor Company into the Chrysler Corporation. Within a few years, aggressive expansion through new brands and acquisitions, including Plymouth, DeSoto, and Dodge, established Chrysler as the third pillar of Detroit\'s "Big Three," alongside Ford and General Motors.',
+        'For decades, Chrysler competed successfully across a full range of price points, from the value-oriented Plymouth to the more upscale Chrysler and Imperial nameplates, and built a reputation for genuine engineering innovation, including early advances in aerodynamics and safety features that its larger rivals were slower to adopt.',
+        'By the 1960s, Chrysler was a fixture of American industrial life, employing well over a hundred thousand people directly and supporting a vast network of suppliers and dealers — a scale that would make its near-collapse a decade later a matter of intense national concern rather than an ordinary corporate bankruptcy.',
+      ],
+    },
+    {
+      id: 'fall',
+      eyebrow: 'Fall',
+      heading: 'Quality Problems Meet an Energy Crisis',
+      paragraphs: [
+        'Through the 1970s, Chrysler\'s manufacturing quality and efficiency steadily fell behind both of its domestic rivals and a new wave of Japanese imports from Toyota, Honda, and Datsun, which built a reputation for reliability that American manufacturers struggled to match. Chrysler\'s product lineup, heavy with larger cars, was also slower than competitors to adapt to shifting consumer tastes.',
+        'The 1973 oil crisis delivered the first serious warning, driving American buyers toward smaller, more fuel-efficient vehicles almost overnight. Chrysler responded more slowly than Ford or GM, and when a second oil shock hit in 1979 amid the Iranian Revolution, the company was caught with a lineup still weighted toward larger cars precisely when demand for them evaporated.',
+        'Compounding the product mismatch, Chrysler carried a bloated, inefficient operating structure built for a much larger market share than it actually held, meaning even modest sales declines translated into outsized losses — a structural fragility that turned an industry-wide downturn into an existential crisis for Chrysler specifically.',
+      ],
+    },
+    {
+      id: 'crisis',
+      eyebrow: 'Crisis',
+      heading: 'Nine Days of Cash and the Largest Loss in American History',
+      paragraphs: [
+        'Lee Iacocca arrived at Chrysler in November 1978 carrying his own recent trauma: he had been fired as President of Ford earlier that year by Henry Ford II, reportedly for reasons Ford himself never fully explained beyond saying he simply didn\'t like him. Iacocca inherited a company already sliding toward collapse, and the numbers that followed confirmed just how far the slide had gone.',
+        'In 1979, Chrysler reported a loss of $1.1 billion for the year — at the time, the largest single-year loss any American corporation had ever recorded. The following year was worse still, with combined 1979–1980 losses reaching roughly $2.7 billion. Chrysler\'s own treasurer later recounted that at the depth of the crisis, the company had approximately nine days of operating cash remaining before it would be unable to pay its bills.',
+        'With private capital markets unwilling to extend further credit to a company in this condition, Iacocca made an unusually direct and public appeal: he went to Congress and asked for federal help, arguing that Chrysler\'s collapse would not just end one company but devastate hundreds of thousands of jobs across its dealer and supplier networks, concentrated heavily in Michigan and the broader industrial Midwest.',
+      ],
+    },
+    {
+      id: 'turnaround',
+      eyebrow: 'Turnaround',
+      heading: 'A Loan Guarantee, Not a Bailout — and a $1 Salary',
+      paragraphs: [
+        'The request was deeply controversial. Free-market critics, including some economists and members of Congress, argued that a struggling company should be allowed to fail or reorganize through bankruptcy rather than receive government assistance. The bill that eventually passed in 1980, the Chrysler Loan Guarantee Act, was a compromise: it authorized the federal government to guarantee up to $1.5 billion in private loans, rather than lending Chrysler cash directly — meaning Chrysler still had to convince private lenders to extend credit, with the government simply reducing their risk.',
+        'To make the case that Chrysler deserved the guarantee, Iacocca paired the ask with visible personal sacrifice, cutting his own salary to $1 a year — a gesture that became one of the most famous symbolic acts in American corporate history — while simultaneously closing plants, reducing the workforce from roughly 140,000 employees toward 70,000, and negotiating substantial wage and benefit concessions from the United Auto Workers union, whose members accepted real sacrifices to help keep the company alive.',
+        'The guarantee bought Chrysler time, but it did not, by itself, fix the company\'s product problem. That required getting a genuinely competitive small car to market fast, on a fraction of the development budget a healthy automaker would have had available.',
+      ],
+    },
+    {
+      id: 'strategy',
+      eyebrow: 'Strategy',
+      heading: 'The K-Car, Rushed to Market on Borrowed Time',
+      paragraphs: [
+        'Chrysler had a fuel-efficient front-wheel-drive platform already in development when Iacocca arrived, and the recovery plan concentrated nearly all of the company\'s remaining engineering and capital resources on getting it to market as quickly as possible. The result, launched in 1981, was the Plymouth Reliant and Dodge Aries — twin models built on what became known as the K-car platform.',
+        'The K-cars were not glamorous, but they were exactly what the post-oil-shock market wanted: compact, fuel-efficient, reasonably priced, and available at a moment when Chrysler desperately needed a sales success to justify the federal guarantee it had just secured. They outsold expectations and gave Chrysler\'s dealer network something competitive to sell again after years of losing customers to smaller imports.',
+        'The K-car platform also became the flexible foundation for one of the most consequential product decisions in automotive history: stretching and reconfiguring it, in 1984, into the Dodge Caravan and Plymouth Voyager — vehicles that did not just succeed commercially but created an entirely new vehicle category, the minivan, which Chrysler would dominate for the next two decades.',
+      ],
+    },
+    {
+      id: 'leadership',
+      eyebrow: 'Leadership',
+      heading: 'An Outsider Who Made the Rescue Personal',
+      paragraphs: [
+        'Iacocca\'s effectiveness rested heavily on his own public persona. A gifted communicator who had previously championed the Ford Mustang, he became Chrysler\'s most visible spokesman, appearing in the company\'s own television advertising with the tagline "If you can find a better car, buy it" — an unusual and risky move that put his personal credibility directly behind the product.',
+        'That same communication skill was decisive in Washington. Iacocca\'s congressional testimony combined blunt financial detail with an unapologetic appeal to the scale of job losses at stake, and his willingness to accept a $1 annual salary gave lawmakers a politically defensible answer to critics who argued the rescue rewarded executive failure.',
+        'Internally, Iacocca combined that public campaign with hard, unsentimental operational decisions — plant closures, layoffs, and union concessions that were unpopular but that he argued, credibly, were the price of survival rather than optional cost-cutting. The willingness to ask for extraordinary sacrifice from employees while cutting his own pay to a token amount gave those demands a legitimacy that a purely top-down mandate would have lacked.',
+      ],
+    },
+    {
+      id: 'innovation',
+      eyebrow: 'Innovation',
+      heading: 'From Survival Platform to Category-Defining Product',
+      paragraphs: [
+        'The K-car itself was not a triumph of automotive engineering so much as a triumph of timing and execution under extreme resource constraint — a competent, efficient vehicle delivered exactly when the market needed one and Chrysler could afford nothing riskier. Its real innovation value emerged only once the immediate crisis had passed.',
+        'By restyling the K-car\'s platform into a taller, boxier body with sliding rear doors, Chrysler\'s engineering team created a vehicle that fit awkwardly into every existing automotive category — too car-like to be a van, too practical to be a wagon — and in doing so invented a new one. The 1984 Dodge Caravan and Plymouth Voyager sold far beyond initial projections and were quickly copied by every major competitor, but Chrysler\'s early lead let it dominate minivan sales for roughly two decades.',
+        'The minivan\'s success illustrates a pattern common to genuine corporate turnarounds: the product that ends the crisis (the K-car) and the product that defines the following decade of growth (the minivan) are rarely the same thing, even when one is a direct engineering descendant of the other.',
+      ],
+    },
+    {
+      id: 'financial-recovery',
+      eyebrow: 'Financial Recovery',
+      heading: 'Repaid Seven Years Early, With the Government Turning a Profit',
+      paragraphs: [
+        'Chrysler\'s recovery, once the K-cars began selling, was faster and more complete than almost anyone had predicted during the darkest months of 1979 and 1980. The company repaid its entire government-guaranteed loan balance in 1983 — a full seven years ahead of the original schedule — and as part of the original financing arrangement, the U.S. Treasury had received warrants to purchase Chrysler stock, which it sold at a profit of roughly $350 million once the company\'s share price recovered.',
+        'That detail mattered enormously to the loan guarantee\'s legacy: rather than costing taxpayers money, the Chrysler rescue ultimately generated a net profit for the federal government, a fact Iacocca and his allies cited repeatedly to rebut the "bailout" framing critics had used throughout the debate.',
+        'By 1984, Chrysler posted a $2.4 billion annual profit — at the time a company record, and a close historical mirror to the record-setting loss the company had posted just five years earlier. Few corporate reversals in American history have moved from a superlative low to a superlative high this quickly.',
+      ],
+      pullQuote: {
+        quote: 'I found myself, at 54, out of work... And here I am, going before Congress, hat in hand, asking for help to save 600,000 jobs.',
+        attribution: 'Lee Iacocca, on testifying before Congress for the loan guarantee',
+      },
+    },
+    {
+      id: 'lessons',
+      eyebrow: 'Lessons',
+      heading: 'What Chrysler\'s Turnaround Still Teaches',
+      paragraphs: [
+        'Chrysler\'s recovery is frequently cited as the founding case study of the modern corporate turnaround genre, and its structural lessons remain unusually durable. The distinction between a loan guarantee and a direct bailout mattered enormously: Chrysler still had to convince private lenders and, ultimately, customers that it could survive — the government reduced risk, but did not remove Chrysler\'s obligation to earn its own recovery.',
+        'Iacocca\'s symbolic $1 salary illustrates a durable principle about asking for sacrifice: leadership that shares visibly in the pain it is asking others to bear earns a legitimacy that purely financial arguments cannot buy on their own, particularly when negotiating concessions from a unionized workforce.',
+        'The gap between the product that stops the bleeding and the product that builds the next decade of growth — the K-car and the minivan — is a reminder that a turnaround\'s survival phase and its growth phase often require genuinely different strategic thinking, even when one grows directly out of the other\'s engineering.',
+        'Finally, the government\'s eventual profit on the loan guarantee warrants is a useful corrective to the assumption that public support for a struggling company is inherently a one-way subsidy: structured correctly, with the company still bearing real financial risk and obligations, such support can align outcomes for both the company and the public backing it.',
+      ],
+    },
+  ],
+  keyTakeaways: [
+    'A federal loan guarantee is structurally different from a direct bailout: Chrysler still had to convince private lenders to extend credit and remained fully obligated to repay it.',
+    'Visible personal sacrifice from leadership — Iacocca\'s $1 salary — can make otherwise unpopular demands for employee and union concessions politically and organizationally viable.',
+    'The product that stabilizes a crisis and the product that drives the following decade of growth are often different: the K-car saved Chrysler, but the minivan it enabled built the next twenty years.',
+    'Congressional and public support for corporate assistance is easier to sustain when structured so the government shares financial upside, not just downside risk.',
+    'A rushed, "good enough" product delivered at exactly the right market moment can outperform a more ambitious product delivered too late or with resources the company no longer has.',
+  ],
+  faq: [
+    {
+      question: 'Did the U.S. government bail out Chrysler with cash?',
+      answer: 'No. The Chrysler Loan Guarantee Act of 1980 authorized the federal government to guarantee up to $1.5 billion in loans from private lenders — it did not provide Chrysler with direct cash. Chrysler still had to secure the loans from banks and remained fully responsible for repaying them.',
+    },
+    {
+      question: 'Did Chrysler repay the government loan guarantee?',
+      answer: 'Yes, in full, in 1983 — seven years ahead of the original repayment schedule. The U.S. Treasury also profited from warrants to purchase Chrysler stock that had been issued as part of the original deal, selling them for a gain of roughly $350 million.',
+    },
+    {
+      question: 'Why did Lee Iacocca cut his salary to $1?',
+      answer: 'Iacocca reduced his own annual salary to $1 as a symbolic gesture demonstrating shared sacrifice, making it easier to ask employees, the United Auto Workers union, and Congress to accept the deep cuts and concessions Chrysler\'s survival required.',
+    },
+    {
+      question: 'How close was Chrysler to bankruptcy in 1979?',
+      answer: 'Chrysler posted a $1.1 billion loss in 1979, at the time the largest annual loss in American corporate history, and the company\'s own treasurer later said it had roughly nine days of operating cash remaining at the depth of the crisis before it would have been unable to pay its bills.',
+    },
+    {
+      question: 'What was Chrysler\'s most important product during the turnaround?',
+      answer: 'The K-car platform — sold as the Plymouth Reliant and Dodge Aries starting in 1981 — provided the fuel-efficient, affordably priced vehicles that stabilized sales. That same platform was later reconfigured into the 1984 Dodge Caravan and Plymouth Voyager, inventing the minivan category and driving Chrysler\'s longer-term growth.',
+    },
+  ],
+  sources: [
+    { label: 'Chrysler Corporation Annual Reports, 1979–1984 (Form 10-K filings)', publisher: 'U.S. Securities and Exchange Commission', url: 'https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Chrysler&type=10-K&dateb=&owner=include&count=40' },
+    { label: 'Chrysler Loan Guarantee Act of 1979', publisher: 'U.S. Congress' },
+    { label: '"Iacocca: An Autobiography"', publisher: 'Lee Iacocca with William Novak, Bantam Books', year: '1984' },
+    { label: 'Chrysler federal loan guarantee repayment reporting', publisher: 'The New York Times' },
+    { label: 'Chrysler turnaround and minivan launch coverage', publisher: 'The Wall Street Journal' },
+  ],
+  relatedSlugs: ['ford', 'general-motors', 'best-buy'],
+}

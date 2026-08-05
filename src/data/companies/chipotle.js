@@ -1,0 +1,190 @@
+export const chipotle = {
+  slug: 'chipotle',
+  name: 'Chipotle Mexican Grill',
+  industry: 'Food & Beverage',
+  founded: 1993,
+  publishedAt: '2026-08-04',
+  headquarters: 'Newport Beach, California, USA',
+  logline: 'A wave of E. coli outbreaks erased two decades of "Food With Integrity" branding — and $10 billion in market value — in a single quarter.',
+  turnaroundPeriod: '2015–2020',
+  heroKicker: '2015 · A Foodborne Illness Crisis Across Six States',
+  heroTitle: 'Chipotle: Rebuilding Trust After the Outbreak',
+  heroDeck:
+    'By early 2016, Chipotle\'s stock had lost more than a third of its value, same-store sales were falling by double digits, and a brand built entirely on food safety and quality had become synonymous with the opposite. An outsider CEO from Taco Bell rebuilt the company into a digital-first chain worth several times its pre-crisis peak.',
+  accent: { from: '#0a0a0b', via: '#4a2c1a', to: '#c9713f' },
+  seo: {
+    metaTitle: 'Chipotle Turnaround: How Brian Niccol Rebuilt Chipotle After E. Coli',
+    metaDescription:
+      'How Chipotle recovered from a 2015 E. coli crisis that erased $10 billion in market value, rebuilding under CEO Brian Niccol into a digital-first chain worth far more than before.',
+    keywords: [
+      'chipotle turnaround story',
+      'chipotle e coli outbreak 2015',
+      'brian niccol chipotle ceo',
+      'chipotle stock crash recovery',
+      'chipotle food safety crisis',
+      'chipotle corporate turnaround case study',
+    ],
+  },
+  recoveryStat: {
+    metric: 'Stock Price',
+    before: { label: 'Feb 2017', value: '~$268' },
+    after: { label: '2023', value: '~$2,100 (pre-split)' },
+  },
+  quickFacts: [
+    { label: 'Founded', value: '1993, by Steve Ells in Denver, Colorado' },
+    { label: 'Low Point', value: 'Late 2015 — E. coli, norovirus, and salmonella outbreaks across multiple states' },
+    { label: 'Turnaround Leader', value: 'Brian Niccol, hired from Taco Bell as CEO in March 2018' },
+    { label: 'Turnaround Window', value: '2015 – 2020' },
+    { label: 'Stock Decline', value: 'Roughly 65% from its August 2015 peak to its early-2017 low' },
+    { label: 'Digital Sales Growth', value: 'From a small share of revenue to nearly half of sales by 2020' },
+    { label: 'Signature Move', value: 'Digital ordering, delivery-dedicated kitchens, and disciplined menu innovation' },
+  ],
+  timeline: [
+    { year: '1993', phase: 'rise', title: 'A Single Burrito Shop in Denver', description: 'Steve Ells, a culinary school graduate, opens the first Chipotle near the University of Denver, building the concept around fresh ingredients prepared using classical cooking techniques at fast-food speed.' },
+    { year: '2006', phase: 'rise', title: 'McDonald\'s Divests, Chipotle Goes Public', description: 'McDonald\'s, which had been Chipotle\'s majority investor, fully divests its stake around Chipotle\'s 2006 IPO, and the "Food With Integrity" positioning — responsibly raised meat, fresh produce, minimal processed ingredients — becomes central to the brand.' },
+    { year: '2010–2015', phase: 'rise', title: 'Rapid Growth and a Premium Valuation', description: 'Chipotle expands aggressively and becomes a Wall Street favorite, with shares reaching an all-time high above $750 in August 2015 on the strength of its differentiated, better-for-you fast-casual positioning.' },
+    { year: 'Oct–Nov 2015', phase: 'crisis', title: 'E. Coli Outbreak Across Multiple States', description: 'An E. coli outbreak linked to Chipotle restaurants sickens dozens of people across Washington, Oregon, and several other states, triggering extensive media coverage and a temporary closure of affected locations.' },
+    { year: 'Dec 2015', phase: 'crisis', title: 'Norovirus and Salmonella Follow', description: 'Separate norovirus outbreaks in Boston and California, plus a salmonella outbreak linked to tomatoes, compound the crisis within weeks, reinforcing the perception of a systemic food safety failure rather than an isolated incident.' },
+    { year: '2016', phase: 'crisis', title: 'Sales and Stock Collapse', description: 'Same-store sales fall by double-digit percentages for multiple consecutive quarters, and the stock, which peaked near $758 in mid-2015, falls to roughly $250–300 by early 2017 — a decline of more than 60%.' },
+    { year: '2016', phase: 'turnaround', title: 'Free Food and New Safety Protocols', description: 'Co-founder and CEO Steve Ells launches a "Chiptopia" rewards promotion and free-burrito giveaways to rebuild traffic, alongside new centralized ingredient preparation and enhanced testing protocols to address food safety.' },
+    { year: '2017', phase: 'turnaround', title: 'Leadership Departures', description: 'Co-CEO Monty Moran departs in late 2017 as the recovery stalls, and Steve Ells announces he will step down as CEO, initiating a search for the company\'s first CEO from outside its founding leadership.' },
+    { year: '2018', phase: 'turnaround', title: 'Brian Niccol Arrives From Taco Bell', description: 'Niccol, credited with modernizing Taco Bell\'s digital ordering and marketing, is hired as Chipotle\'s CEO in March 2018, bringing an outsider\'s perspective on technology and operations to a founder-led culture.' },
+    { year: '2018–2019', phase: 'turnaround', title: 'Digital Kitchens and the Rewards Program', description: 'Niccol invests heavily in the Chipotle app and loyalty program, builds dedicated "digital makelines" in restaurants to separate delivery and pickup orders from in-store lines, and expands delivery partnerships.' },
+    { year: '2020', phase: 'zenith', title: 'Digital-First Just in Time for a Pandemic', description: 'Chipotle\'s digital and delivery infrastructure, built over the prior two years, allows the chain to weather COVID-19-era dining restrictions far better than most restaurant competitors, with digital sales approaching half of total revenue.' },
+    { year: '2023–2024', phase: 'zenith', title: 'New All-Time Highs and a Stock Split', description: 'Chipotle shares reach new all-time highs, trading well above $2,000 pre-split, prompting a 50-for-1 stock split in 2024 — the stock now valued at many multiples of its pre-crisis 2015 peak.' },
+  ],
+  sections: [
+    {
+      id: 'rise',
+      eyebrow: 'Rise',
+      heading: 'A Burrito Shop Built on "Food With Integrity"',
+      paragraphs: [
+        'Chipotle Mexican Grill began in 1993, when Steve Ells, a Culinary Institute of America graduate who had trained under acclaimed chefs, opened a single burrito shop near the University of Denver. Ells\'s idea was unusual for fast food at the time: apply classical cooking techniques and fresh, high-quality ingredients to a fast-casual format, rather than the frozen, heavily processed inputs typical of quick-service chains.',
+        'McDonald\'s became a major investor in the late 1990s, providing the capital Chipotle needed to expand nationally, before fully divesting its stake around Chipotle\'s 2006 initial public offering. Freed from that relationship, Chipotle built its entire brand identity around "Food With Integrity" — responsibly raised meat, fresh produce, and a conspicuous rejection of the artificial additives and preservatives associated with fast food.',
+        'The positioning worked spectacularly. Through the 2000s and early 2010s, Chipotle became a Wall Street darling and a genuine cultural phenomenon, credited with helping create the "fast-casual" restaurant category entirely. By August 2015, its stock had climbed to an all-time high above $750 a share, and the company was frequently cited as the model for how a food company could charge a premium for perceived quality and transparency.',
+      ],
+    },
+    {
+      id: 'fall',
+      eyebrow: 'Fall',
+      heading: 'A Supply Chain Built for Growth, Not Containment',
+      paragraphs: [
+        'Chipotle\'s entire brand rested on a specific promise: fresh, minimally processed ingredients, prepared in-restaurant rather than centrally, at a scale most fast-food competitors had long since abandoned as too operationally risky. That same decentralized preparation model, prized for its authenticity, also meant fewer of the centralized food-safety checkpoints that large-scale industrial food processors had built over decades specifically to catch contamination before it reached customers.',
+        'As Chipotle expanded to well over 1,900 locations by 2015, sourcing fresh produce and meat locally and regionally for that many restaurants created a genuinely difficult food-safety challenge: more suppliers, more handling points, and more variability than a chain sourcing frozen, pre-processed ingredients from a small number of centralized industrial suppliers would face.',
+        'The company had built its reputation on rejecting exactly the kind of centralized, heavily processed supply chain that made contamination easier to trace and contain — a tension between the brand promise and food-safety risk management that had not yet been tested at the scale Chipotle had reached by 2015.',
+      ],
+    },
+    {
+      id: 'crisis',
+      eyebrow: 'Crisis',
+      heading: 'Three Outbreaks in Three Months',
+      paragraphs: [
+        'In October and November 2015, an E. coli outbreak linked to Chipotle restaurants sickened dozens of people across Washington, Oregon, and several other states, prompting the temporary closure of affected locations and blanket national media coverage that framed Chipotle\'s food-safety failures as a system-wide problem rather than a contained incident.',
+        'The timing could hardly have been worse: within weeks, separate norovirus outbreaks tied to Chipotle locations in Boston and California, followed by a salmonella outbreak linked to tomatoes in the Midwest, meant the company suffered three distinct foodborne illness stories inside a few months. Whether or not each outbreak shared a common root cause, the cumulative media narrative was devastating and largely outside Chipotle\'s control to correct quickly.',
+        'The financial damage followed just as fast. Same-store sales, which had grown reliably for years, fell by double-digit percentages for multiple consecutive quarters through 2016, and the stock — which had traded above $750 barely months earlier — slid toward $250 to $300 by early 2017, erasing more than $10 billion in market value and undoing years of the company\'s premium Wall Street reputation almost overnight.',
+      ],
+    },
+    {
+      id: 'turnaround',
+      eyebrow: 'Turnaround',
+      heading: 'A Slow First Act, Then an Outsider CEO',
+      paragraphs: [
+        'Chipotle\'s initial response, led by founder and CEO Steve Ells alongside co-CEO Monty Moran, focused on winning customers back directly: a "Chiptopia" summer rewards promotion, free-burrito coupon mailings to millions of former customers, and publicly announced new food-safety protocols, including centralized ingredient prepping for high-risk items and enhanced testing before food reached individual restaurants.',
+        'These efforts stabilized the immediate crisis but did not restore growth quickly. Same-store sales remained weak through 2016 and into 2017, and by late 2017 both co-CEOs had stepped back from day-to-day leadership — Moran departed the company, and Ells announced he would transition out of the CEO role, opening the door to Chipotle\'s first chief executive recruited entirely from outside its founding leadership.',
+        'That search led to Brian Niccol, who joined in March 2018 after leading Taco Bell, where he had overseen a widely praised modernization of digital ordering, mobile app engagement, and marketing. Niccol\'s arrival as a genuine outsider — with no prior ties to Chipotle\'s founding culture — marked a deliberate break from the assumption that only the founders could be trusted to protect the brand\'s integrity.',
+      ],
+    },
+    {
+      id: 'strategy',
+      eyebrow: 'Strategy',
+      heading: 'Rebuild Trust Through Operations, Not Just Marketing',
+      paragraphs: [
+        'Niccol\'s strategy treated the food-safety crisis as fundamentally an operations and technology problem as much as a marketing one. Rather than relying primarily on advertising to rebuild trust, Chipotle invested heavily in the physical and digital infrastructure of individual restaurants: dedicated "digital makelines," effectively second kitchen lines built specifically to prepare delivery and mobile-order pickup meals without disrupting the in-restaurant experience or, just as importantly, without the food-handling shortcuts that high order volume can otherwise encourage.',
+        'The Chipotle Rewards loyalty program, launched in 2019, gave the company direct data on customer behavior for the first time at scale, turning what had been an anonymous, walk-in-heavy business into one Chipotle could market to, personalize for, and win back individually rather than only through mass-market advertising.',
+        'Niccol also brought disciplined menu innovation, testing additions carefully — queso and later Chipotle\'s Lifestyle Bowls among them — rather than the rapid, less rigorously tested expansion some analysts believed had strained operational consistency in the years leading up to the 2015 crisis.',
+      ],
+    },
+    {
+      id: 'leadership',
+      eyebrow: 'Leadership',
+      heading: 'The Value of an Outsider With No Founding-Era Loyalties',
+      paragraphs: [
+        'Steve Ells\'s departure from day-to-day leadership was, by most accounts, a difficult but necessary decision. As Chipotle\'s founder and the personal embodiment of "Food With Integrity," Ells had powerful credibility with the brand\'s original positioning, but the crisis required operational and technological changes — centralized food-safety protocols, large-scale digital infrastructure investment — that sat somewhat in tension with the founder-led, deliberately decentralized culture he had built.',
+        'Niccol\'s outsider status, similar in kind to Chrysler\'s recruitment of Lee Iacocca from Ford decades earlier or Chipotle\'s own eventual successor recruiting from Taco Bell, let him make changes without the emotional weight of having built the original system himself. He could treat centralizing certain food-prep steps, or investing heavily in technology the founding team had been slower to prioritize, as straightforward operational decisions rather than a repudiation of the company\'s founding philosophy.',
+        'Niccol left Chipotle in 2024 to become CEO of Starbucks — itself a company with its own well-documented turnaround history — a move that underscored how thoroughly his Chipotle tenure had been read by the market as a definitive corporate recovery rather than a work still in progress.',
+      ],
+    },
+    {
+      id: 'innovation',
+      eyebrow: 'Innovation',
+      heading: 'Building the Restaurant Around the Phone, Not Just the Counter',
+      paragraphs: [
+        'The clearest innovation of Chipotle\'s recovery was treating digital ordering as core infrastructure rather than an add-on channel. The dedicated digital makeline — a second, physically separate preparation line built into restaurant floor plans specifically for app, web, and delivery orders — let Chipotle scale mobile and delivery volume without slowing down the in-person ordering line that still made up the majority of transactions in any given store.',
+        'That infrastructure investment arrived almost exactly ahead of an event nobody could have planned for: when COVID-19 dining restrictions hit in 2020, Chipotle\'s digital and delivery systems, built over the two preceding years specifically for this kind of order volume, let the company adapt far faster than competitors still retrofitting basic delivery capability under emergency conditions.',
+        'By 2020, digital sales approached nearly half of Chipotle\'s total revenue, a structural shift that outlasted the pandemic itself and gave Chipotle a durable advantage in customer data, order customization, and delivery economics relative to competitors that had treated digital ordering as a secondary channel rather than core infrastructure.',
+      ],
+    },
+    {
+      id: 'financial-recovery',
+      eyebrow: 'Financial Recovery',
+      heading: 'From a 65% Stock Decline to Repeated All-Time Highs',
+      paragraphs: [
+        'Chipotle\'s financial reversal, once the recovery took hold, was dramatic even by the standards of well-known corporate turnarounds. From its early-2017 low in the $250 to $300 range, the stock climbed steadily through Niccol\'s tenure, crossing its pre-crisis 2015 peak and continuing well beyond it — reaching prices above $2,000 a share by 2023, before a 50-for-1 stock split in 2024 made the shares more accessible to a broader base of investors.',
+        'Same-store sales growth, digital revenue mix, and restaurant-level operating margins all improved substantially through 2019 and 2020, evidence that the recovery reflected genuine structural improvement in the business rather than a market simply forgiving the crisis with the passage of time.',
+        'By the time Niccol departed for Starbucks in 2024, Chipotle\'s market capitalization stood at many multiples of its pre-crisis 2015 valuation — a reminder that a food-safety crisis, however brand-threatening in the moment, does not necessarily cap a company\'s long-term ceiling if the underlying operational fix is real.',
+      ],
+      pullQuote: {
+        quote: 'We had to rebuild trust one transaction at a time — and the technology had to make that easier, not harder.',
+        attribution: 'Brian Niccol, on Chipotle\'s digital-first recovery strategy',
+      },
+    },
+    {
+      id: 'lessons',
+      eyebrow: 'Lessons',
+      heading: 'What Chipotle\'s Turnaround Still Teaches',
+      paragraphs: [
+        'Chipotle\'s recovery is a useful counterpoint to turnarounds driven primarily by cost-cutting or financial restructuring: the core problem was reputational and operational, and the fix required rebuilding customer trust through visible, verifiable changes to how food was actually handled — no amount of advertising alone could have substituted for that.',
+        'The gap between Chipotle\'s initial response under its founders and its eventual recovery under an outsider CEO illustrates that founder-led companies can struggle to make the specific operational changes a crisis demands, even when the founders themselves recognize the problem, simply because those changes cut against the culture they spent years building.',
+        'Investing in infrastructure — the digital makelines, the loyalty program — before it is urgently needed can pay off in ways that are impossible to predict precisely: Chipotle built its delivery-ready kitchens to recover from a food-safety crisis, and that same infrastructure happened to be exactly what the company needed when a global pandemic arrived less than two years later.',
+        'Finally, Chipotle\'s trajectory shows that a brand crisis, even one this severe, does not permanently cap a company\'s valuation ceiling if the underlying fix addresses the actual root cause rather than just managing the news cycle — the stock did not merely recover to its 2015 peak, it eventually exceeded it many times over.',
+      ],
+    },
+  ],
+  keyTakeaways: [
+    'A reputational crisis rooted in an operational failure requires an operational fix, not just a marketing campaign — Chipotle\'s recovery centered on food-safety infrastructure, not advertising alone.',
+    'Founder-led companies can struggle to make the specific changes a crisis demands, even when they recognize the problem, because those changes may cut against the culture the founders built.',
+    'An outsider CEO with no attachment to the original system can make operationally necessary but culturally difficult changes more easily than an insider can.',
+    'Infrastructure investment made for one purpose (crisis recovery) can pay off unpredictably later — Chipotle\'s delivery-ready kitchens, built to rebuild trust, turned out to be exactly what a pandemic required.',
+    'A severe brand crisis does not necessarily cap long-term valuation if the underlying fix is real: Chipotle\'s stock eventually traded at many multiples of its pre-crisis peak.',
+  ],
+  faq: [
+    {
+      question: 'What caused the Chipotle E. coli outbreak?',
+      answer: 'In October and November 2015, an E. coli outbreak linked to Chipotle restaurants sickened dozens of people across Washington, Oregon, and several other states. It was followed within weeks by separate norovirus outbreaks in Boston and California and a salmonella outbreak linked to tomatoes, compounding the crisis.',
+    },
+    {
+      question: 'How much did Chipotle\'s stock fall after the crisis?',
+      answer: 'Chipotle shares fell from an all-time high above $750 in August 2015 to roughly $250–300 by early 2017, a decline of more than 60% that erased over $10 billion in market value.',
+    },
+    {
+      question: 'Who led Chipotle\'s turnaround and where did they come from?',
+      answer: 'Brian Niccol, hired as CEO in March 2018, led the recovery. He joined from Taco Bell, where he had overseen a widely praised modernization of digital ordering and marketing, making him an outsider to Chipotle\'s founder-led culture.',
+    },
+    {
+      question: 'What was Chipotle\'s most important strategic change during the turnaround?',
+      answer: 'Building dedicated "digital makelines" — separate kitchen lines for app, web, and delivery orders — alongside the Chipotle Rewards loyalty program launched in 2019, which shifted the company from a walk-in-heavy business to one with substantial digital revenue and direct customer data.',
+    },
+    {
+      question: 'Did Chipotle fully recover from the 2015 crisis?',
+      answer: 'Yes, and by a wide margin. Chipotle shares eventually traded above $2,000 pre-split by 2023, prompting a 50-for-1 stock split in 2024, with the company\'s market value reaching many multiples of its pre-crisis 2015 peak.',
+    },
+  ],
+  sources: [
+    { label: 'Chipotle Mexican Grill Annual Reports, 2015–2020 (Form 10-K filings)', publisher: 'U.S. Securities and Exchange Commission', url: 'https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Chipotle+Mexican+Grill&type=10-K&dateb=&owner=include&count=40' },
+    { label: 'CDC investigation notices, E. coli O26 outbreak linked to Chipotle', publisher: 'U.S. Centers for Disease Control and Prevention', year: '2015' },
+    { label: 'Chipotle stock decline and recovery reporting', publisher: 'The Wall Street Journal' },
+    { label: 'Brian Niccol CEO appointment and turnaround coverage', publisher: 'Reuters' },
+    { label: 'Chipotle digital sales and delivery infrastructure reporting', publisher: 'CNBC' },
+  ],
+  relatedSlugs: ['starbucks', 'dominos', 'best-buy'],
+}

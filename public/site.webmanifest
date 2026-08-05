@@ -1,0 +1,16 @@
+{
+  "name": "From Dust to Zenith",
+  "short_name": "Dust to Zenith",
+  "description": "Documentary-style case studies on history's greatest business turnarounds.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0b",
+  "theme_color": "#0a0a0b",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

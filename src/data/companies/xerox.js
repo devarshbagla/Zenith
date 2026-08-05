@@ -1,0 +1,191 @@
+export const xerox = {
+  slug: 'xerox',
+  name: 'Xerox',
+  industry: 'Technology',
+  founded: 1906,
+  publishedAt: '2026-07-24',
+  headquarters: 'Norwalk, Connecticut, USA',
+  logline: 'An accounting scandal, $17 billion in debt, and a stock under $4 — rebuilt by the one executive everyone said couldn\'t do it.',
+  turnaroundPeriod: '2000–2006',
+  heroKicker: '2000 · $17 Billion in Debt, Under SEC Investigation',
+  heroTitle: 'Xerox: The Insider Who Refused to File Bankruptcy',
+  heroDeck:
+    'By 2000, Xerox was drowning in debt, under SEC investigation for accounting fraud, and openly discussed as a bankruptcy candidate. A 25-year company veteran, passed over for outsiders twice, took the job nobody wanted — and refused every recommendation to file Chapter 11.',
+  accent: { from: '#0a0a0b', via: '#1e3a52', to: '#5b9bd5' },
+  seo: {
+    metaTitle: 'Xerox Turnaround: How Anne Mulcahy Saved Xerox From Bankruptcy',
+    metaDescription:
+      'How Anne Mulcahy restructured $10 billion in debt, settled an SEC fraud case, and rebuilt Xerox without filing Chapter 11 — one of the most studied CEO turnarounds in business history.',
+    keywords: [
+      'xerox turnaround story',
+      'anne mulcahy xerox ceo',
+      'xerox near bankruptcy 2000',
+      'xerox accounting scandal sec',
+      'xerox corporate turnaround case study',
+      'xerox debt restructuring',
+    ],
+  },
+  recoveryStat: {
+    metric: 'Stock Price',
+    before: { label: 'Oct 2000', value: '~$4.43' },
+    after: { label: '2006', value: '~$15' },
+  },
+  quickFacts: [
+    { label: 'Founded', value: '1906, as The Haloid Photographic Company' },
+    { label: 'Low Point', value: 'Oct 2000 — stock near $4, $17.1B in debt, SEC investigation active' },
+    { label: 'Turnaround Leader', value: 'Anne Mulcahy, a 25-year Xerox veteran, named CEO in Aug 2001' },
+    { label: 'Turnaround Window', value: '2000 – 2006' },
+    { label: 'Debt Restructured', value: '$10 billion, without a Chapter 11 filing' },
+    { label: 'SEC Settlement', value: '$10 million fine; $6.4 billion in revenue restated (2002)' },
+    { label: 'Signature Move', value: 'Refusing bankruptcy and cutting costs while protecting R&D spending' },
+  ],
+  timeline: [
+    { year: '1906', phase: 'rise', title: 'The Haloid Photographic Company', description: 'Founded in Rochester, New York, to manufacture photographic paper — decades before it would commercialize xerography, the dry-copying technology invented by Chester Carlson in 1938.' },
+    { year: '1959', phase: 'rise', title: 'The Xerox 914 Copier', description: 'Haloid, renamed Haloid Xerox, launches the 914 — the first plain-paper office copier and one of the most successful products in American business history, making "Xerox" a verb.' },
+    { year: '1970s–1980s', phase: 'rise', title: 'Decades of Copier Dominance', description: 'Xerox becomes synonymous with photocopying, though a landmark antitrust settlement in 1975 forces it to license its patents, opening the door for Japanese competitors like Canon and Ricoh.' },
+    { year: '1990s', phase: 'fall', title: 'Digital Disruption and Rising Debt', description: 'As copying shifts from analog to digital and networked printing, Xerox\'s core business erodes against nimbler competitors, while the company takes on heavy debt and expands an internal financing arm to keep equipment sales moving.' },
+    { year: '1999', phase: 'fall', title: 'A Botched ERP Rollout', description: 'A company-wide restructuring of the sales force, paired with a troubled new order-management system, disrupts billing and collections so severely that revenue and cash flow both collapse within months.' },
+    { year: '2000', phase: 'crisis', title: 'CEO Ousted After 13 Months', description: 'Rick Thoman, recruited from IBM in 1997 and made CEO in 1999, is removed by the board after just over a year, as the stock craters and cash reserves shrink toward crisis levels.' },
+    { year: '2000', phase: 'crisis', title: 'The Stock Falls Below $5', description: 'Xerox shares, which traded above $60 in 1999, fall under $4.50 by October 2000. The company carries roughly $17 billion in debt and draws down its entire bank credit line to stay liquid.' },
+    { year: '2000–2002', phase: 'crisis', title: 'SEC Investigation', description: 'The SEC opens a formal investigation into Xerox\'s revenue recognition practices in its equipment-leasing business, deepening the crisis of confidence among lenders and investors.' },
+    { year: '2001', phase: 'turnaround', title: 'Anne Mulcahy Becomes CEO', description: 'Mulcahy, who joined Xerox as a sales representative in 1976 and had been passed over for the top job in favor of outsiders twice, is named President in 2000 and CEO in August 2001, inheriting the crisis directly.' },
+    { year: '2002', phase: 'turnaround', title: 'SEC Settlement, No Bankruptcy Filing', description: 'Xerox settles with the SEC, restating $6.4 billion in revenue over 1997–2000 and paying a $10 million fine — without admitting or denying wrongdoing — while Mulcahy rejects advisors\' recommendations to file Chapter 11.' },
+    { year: '2002–2003', phase: 'turnaround', title: 'Restructuring $10 Billion in Debt', description: 'Mulcahy\'s team refinances roughly $10 billion in debt out of court, sells non-core assets including Xerox\'s China operations, and cuts the workforce by tens of thousands of jobs while protecting the R&D budget.' },
+    { year: '2006', phase: 'zenith', title: 'A Fully Recovered Company', description: 'Xerox returns to consistent profitability with a far smaller debt load, stock trading in the mid-teens, and R&D-driven products carrying a growing share of revenue.' },
+    { year: '2009', phase: 'zenith', title: 'Ursula Burns Succeeds Mulcahy', description: 'Mulcahy hands the CEO role to Ursula Burns, another long-tenured Xerox executive, who becomes the first Black woman to lead a Fortune 500 company and leads the pivot into services with the acquisition of Affiliated Computer Services.' },
+  ],
+  sections: [
+    {
+      id: 'rise',
+      eyebrow: 'Rise',
+      heading: 'The Company That Made "Xerox" a Verb',
+      paragraphs: [
+        'Xerox traces its roots to 1906, when The Haloid Photographic Company was founded in Rochester, New York, to manufacture photographic paper. Decades later, Haloid took a gamble few investors understood: licensing an obscure dry-copying process called xerography, invented by patent attorney and physicist Chester Carlson, who had been rejected by more than twenty companies before Haloid agreed to develop it.',
+        'That bet paid off spectacularly. The 1959 launch of the Xerox 914 — the first plain-paper office copier — became one of the most commercially successful products in American corporate history. It was so transformative that "to Xerox" entered the language as a verb for photocopying, a level of brand saturation few companies before or since have achieved.',
+        'For decades afterward, Xerox effectively defined an entire product category. Even a landmark 1975 antitrust settlement, which forced Xerox to license its patents and opened the market to Japanese competitors like Canon and Ricoh, did little to dent the company\'s dominance through the 1970s and 1980s, when Xerox equipment was standard furniture in nearly every American office.',
+      ],
+    },
+    {
+      id: 'fall',
+      eyebrow: 'Fall',
+      heading: 'Debt, Digital Disruption, and a Broken Billing System',
+      paragraphs: [
+        'By the 1990s, the copier business Xerox had defined was changing beneath it. Digital and networked printing began displacing standalone analog copiers, and leaner Japanese competitors continued eating into market share on price and reliability. To keep equipment moving, Xerox leaned heavily on its own internal financing arm, letting customers lease machines on credit — a model that steadily loaded the balance sheet with debt.',
+        'The company brought in Rick Thoman, a well-regarded IBM executive, in 1997, elevating him to CEO in 1999 with a mandate to modernize Xerox\'s go-to-market operations. The centerpiece of that effort was a company-wide restructuring of the sales force combined with a new, unproven order-management and billing system rolled out nationally in 1999.',
+        'The rollout went badly. Sales representatives, reorganized into new territories overnight, struggled to process orders correctly, and the new billing system compounded the chaos rather than resolving it. Invoices went out late or wrong, collections slowed to a crawl, and revenue that should have been recognized in one quarter bled into the next — turning an operational hiccup into a full-blown cash crisis within months.',
+      ],
+    },
+    {
+      id: 'crisis',
+      eyebrow: 'Crisis',
+      heading: '$17 Billion in Debt, an SEC Investigation, and a Stock Under $5',
+      paragraphs: [
+        'By October 2000, Xerox stock — which had traded above $60 barely eighteen months earlier — had fallen under $4.50. The company was carrying roughly $17 billion in debt, and to remain liquid it drew down its entire multi-billion-dollar bank credit facility, a move that itself spooked markets further by signaling how thin Xerox\'s cash position had become.',
+        'Thoman was removed by the board after only thirteen months as CEO, with former chairman and CEO Paul Allaire stepping back in on an interim basis. The leadership churn did nothing to slow a second, more damaging development: the Securities and Exchange Commission opened a formal investigation into how Xerox had been recognizing revenue on long-term equipment leases, particularly in its international operations.',
+        'Credit rating agencies downgraded Xerox\'s debt toward junk status, and the phrase used most often in coverage of the company at the time was some version of "bankruptcy candidate." Restructuring advisors, brought in to assess the company\'s options, reportedly recommended a Chapter 11 filing as the cleanest path to reorganizing the debt load — advice the incoming CEO would flatly refuse to take.',
+      ],
+    },
+    {
+      id: 'turnaround',
+      eyebrow: 'Turnaround',
+      heading: 'The Insider Nobody Expected to Get the Job',
+      paragraphs: [
+        'Anne Mulcahy was, by her own account, an unlikely choice to run a technology company in crisis. She had joined Xerox in 1976 as a field sales representative straight out of college, spent her entire 25-year career inside the company, and had twice watched the board recruit outsiders — Thoman among them — for the CEO role she was never seriously considered for.',
+        'When the board finally turned to her, first as President in 2000 and then as CEO in August 2001, it was less a vote of confidence than a decision made from necessity: Xerox needed someone who understood every part of the business intimately, and Mulcahy, who had run the sales organization, human resources, and corporate strategy at different points in her career, was one of the few executives who did.',
+        'She inherited a company simultaneously fighting an SEC investigation, a collapsing stock price, and a debt load that made every conversation with lenders adversarial. Her first, most consequential decision was refusing to file for Chapter 11 bankruptcy despite advisors telling her it was the fastest way to restructure the balance sheet — she believed a bankruptcy filing would permanently damage customer confidence in a company whose entire business model depended on multi-year equipment and service contracts.',
+      ],
+    },
+    {
+      id: 'strategy',
+      eyebrow: 'Strategy',
+      heading: 'Restructure Everything Except What Customers Depend On',
+      paragraphs: [
+        'Mulcahy\'s plan rested on doing the debt restructuring the hard way: negotiating directly and repeatedly with a large syndicate of banks and bondholders to refinance roughly $10 billion in obligations outside of court, buying time without the reputational damage of bankruptcy. It required an unusual amount of personal credibility with lenders, built through relentless, detailed communication about exactly how the recovery plan would work.',
+        'Alongside the refinancing, Xerox sold off assets that no longer fit a leaner company, including its China operations and its stake in a joint venture covering document-management software, while cutting the global workforce from roughly 95,000 employees toward 55,000 over the following years. Mulcahy has said repeatedly that the hardest calls were not the cost cuts themselves but deciding what not to cut.',
+        'That distinction mattered most in research and development. Even as nearly every other budget line was reduced, Mulcahy protected Xerox\'s roughly $1 billion annual R&D spend, betting that a copier company with no new technology to sell had no long-term recovery story at all — only a slower version of the same decline.',
+      ],
+    },
+    {
+      id: 'leadership',
+      eyebrow: 'Leadership',
+      heading: 'Credibility Earned Over Twenty-Five Years, Spent All at Once',
+      paragraphs: [
+        'Mulcahy\'s outsider predecessor had lasted thirteen months. Her advantage was the opposite of an outsider\'s: employees, long-tenured customers, and even many lenders had watched her rise through the company for a quarter-century and trusted that she understood Xerox\'s actual operations rather than a set of slides prepared by consultants.',
+        'She used that credibility unusually directly, traveling extensively to meet with lenders, employees, and large customers in person during the worst of the crisis, and famously telling Xerox\'s own workforce that the company\'s survival was not guaranteed — a level of candor some corporate communications advisors considered risky, but which Mulcahy believed was necessary to get the entire organization pulling in the same direction under enormous pressure.',
+        'She also settled the SEC investigation on terms that ended the uncertainty rather than prolonging it: in 2002, Xerox restated $6.4 billion in revenue recognized between 1997 and 2000 and paid a $10 million civil penalty, without admitting or denying the SEC\'s findings, closing the door on the accounting scandal so the company could focus entirely on operational recovery.',
+      ],
+    },
+    {
+      id: 'innovation',
+      eyebrow: 'Innovation',
+      heading: 'Protecting R&D Was the Bet That Financial Discipline Alone Could Not Win',
+      paragraphs: [
+        'Xerox\'s famous Palo Alto Research Center, PARC, had already produced foundational technologies — the graphical user interface, the computer mouse, Ethernet — that Xerox itself had famously failed to commercialize as effectively as competitors like Apple and Microsoft. Protecting R&D funding during the 2001–2003 crisis was, in part, a decision not to repeat that historical mistake by starving the pipeline just as digital document technology was accelerating.',
+        'That continued investment funded a shift in Xerox\'s core business from selling standalone hardware toward digital color printing, managed print services, and eventually business process outsourcing — a transition that let Xerox reposition around higher-margin services rather than commoditized copier hardware competing purely on price against Asian manufacturers.',
+        'The strategic logic paid forward past Mulcahy\'s own tenure. Her successor, Ursula Burns, built directly on the services pivot with Xerox\'s 2010 acquisition of Affiliated Computer Services, a roughly $6 billion deal that pushed the company further into business process outsourcing — a direction that would have been unaffordable, and unimaginable, for the company as it stood in 2001.',
+      ],
+    },
+    {
+      id: 'financial-recovery',
+      eyebrow: 'Financial Recovery',
+      heading: 'From a $4 Stock to a Company That Could Choose Its Own Future',
+      paragraphs: [
+        'By 2006, the numbers told a clear story. Xerox\'s debt load had fallen dramatically from its roughly $17 billion peak, the company had returned to consistent annual profitability, and its stock had recovered from its October 2000 low near $4.43 into the mid-teens — still short of its late-1990s highs, but evidence of a company no longer fighting for survival.',
+        'The SEC matter closed with a settlement rather than a prolonged legal battle, and the debt restructuring, conducted entirely outside of bankruptcy court, preserved Xerox\'s relationships with the enterprise customers whose multi-year equipment and service contracts made up the core of its revenue — the exact outcome Mulcahy had judged a Chapter 11 filing would have put at risk.',
+        'In 2009, Mulcahy handed the CEO role to Ursula Burns, continuing an unusual pattern for a company that had nearly collapsed under outsider leadership less than a decade earlier: Xerox\'s recovery, and the decade of stability that followed it, was led entirely by executives who had spent their careers inside the company.',
+      ],
+      pullQuote: {
+        quote: 'I never thought bankruptcy was the answer. I thought it was quitting.',
+        attribution: 'Anne Mulcahy, on rejecting advisors\' recommendation to file Chapter 11',
+      },
+    },
+    {
+      id: 'lessons',
+      eyebrow: 'Lessons',
+      heading: 'What Xerox\'s Turnaround Still Teaches',
+      paragraphs: [
+        'Xerox\'s recovery is one of the clearest counterexamples to the assumption that a crisis this severe requires an outsider to fix it. Mulcahy\'s twenty-five years inside the company gave her something a recruited turnaround specialist could not manufacture quickly: granular knowledge of exactly which parts of Xerox still worked, which customers would tolerate hard conversations, and which lenders could be persuaded rather than forced.',
+        'The decision to refinance out of court rather than file Chapter 11 is a reminder that the fastest legal path through a crisis is not always the right business path — Mulcahy judged, correctly, that Xerox\'s enterprise customers valued certainty about long-term service contracts more than markets valued a faster balance-sheet fix.',
+        'Protecting R&D spending while cutting nearly everything else illustrates a distinction that matters in any turnaround: cost discipline and starvation are not the same thing. Xerox cut the workforce by nearly half without cutting the one budget line that determined whether the company would have anything to sell five years later.',
+        'Finally, settling the SEC matter decisively — rather than contesting it for years — freed leadership to spend its remaining attention on operations instead of litigation, a trade-off that is frequently undervalued by executives inclined to fight every allegation on principle rather than on cost-benefit.',
+      ],
+    },
+  ],
+  keyTakeaways: [
+    'An insider with twenty-five years of institutional knowledge can out-execute an outsider during a crisis that requires granular operational understanding, not just fresh perspective.',
+    'Refusing bankruptcy and restructuring debt out of court, while harder and slower, can preserve customer trust that a Chapter 11 filing would permanently damage.',
+    'Protecting R&D spending during aggressive cost-cutting is a bet that the company will still need something to sell once the crisis ends.',
+    'Settling a regulatory investigation on clear terms, rather than contesting it indefinitely, can free leadership attention for the operational recovery that actually determines survival.',
+    'Radical candor with employees about the severity of a crisis can build the organizational alignment a turnaround requires, even when it feels riskier than reassurance.',
+  ],
+  faq: [
+    {
+      question: 'Did Xerox file for bankruptcy?',
+      answer: 'No. Despite advisors recommending a Chapter 11 filing to restructure roughly $17 billion in debt, CEO Anne Mulcahy refused, and instead negotiated directly with banks and bondholders to refinance about $10 billion in obligations outside of bankruptcy court.',
+    },
+    {
+      question: 'What was the Xerox accounting scandal about?',
+      answer: 'The SEC investigated how Xerox recognized revenue on long-term equipment leases, particularly in its international operations, alleging the company had accelerated revenue recognition to meet earnings targets. Xerox settled in 2002, restating $6.4 billion in revenue from 1997–2000 and paying a $10 million civil penalty, without admitting or denying the findings.',
+    },
+    {
+      question: 'Who is Anne Mulcahy and why was her appointment unusual?',
+      answer: 'Mulcahy joined Xerox in 1976 as a field sales representative and spent her entire 25-year career inside the company before becoming CEO in 2001. She had twice been passed over for the top job in favor of outside executives, including her immediate predecessor, who lasted only thirteen months.',
+    },
+    {
+      question: 'How much debt did Xerox have during the crisis?',
+      answer: 'Xerox carried roughly $17 billion in debt at the height of the crisis in 2000, and drew down its entire multi-billion-dollar bank credit facility to remain liquid, a move that further alarmed investors about the company\'s cash position.',
+    },
+    {
+      question: 'What happened to Xerox after Anne Mulcahy\'s turnaround succeeded?',
+      answer: 'By 2006, Xerox had returned to consistent profitability with substantially reduced debt. Mulcahy handed the CEO role to Ursula Burns in 2009, who became the first Black woman to lead a Fortune 500 company and expanded Xerox into business process outsourcing with the 2010 acquisition of Affiliated Computer Services.',
+    },
+  ],
+  sources: [
+    { label: 'Xerox Corporation Annual Reports, 2000–2006 (Form 10-K filings)', publisher: 'U.S. Securities and Exchange Commission', url: 'https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Xerox+Corp&type=10-K&dateb=&owner=include&count=40' },
+    { label: 'SEC Accounting and Auditing Enforcement Release, Xerox Corporation', publisher: 'U.S. Securities and Exchange Commission', year: '2002' },
+    { label: 'Xerox debt restructuring and turnaround reporting', publisher: 'The Wall Street Journal' },
+    { label: 'Xerox stock price and turnaround coverage', publisher: 'Reuters' },
+    { label: 'Anne Mulcahy CEO tenure and leadership retrospectives', publisher: 'Harvard Business Review' },
+  ],
+  relatedSlugs: ['ibm', 'adobe', 'general-motors'],
+}

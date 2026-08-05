@@ -1,0 +1,273 @@
+@import "tailwindcss";
+@import "@fontsource-variable/fraunces/full.css";
+@import "@fontsource-variable/source-serif-4/wght.css";
+@import "@fontsource-variable/inter/wght.css";
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+@theme {
+  /* -- Type -- */
+  --font-display: "Fraunces Variable", ui-serif, Georgia, serif;
+  --font-serif: "Source Serif 4 Variable", ui-serif, Georgia, serif;
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+
+  /* -- Color: Ink (near-black, warm charcoal) -- */
+  --color-ink-950: #0a0a0b;
+  --color-ink-900: #111113;
+  --color-ink-800: #1a1a1d;
+  --color-ink-700: #26262a;
+  --color-ink-600: #3a3a40;
+  --color-ink-500: #55555d;
+  --color-ink-400: #6a6a72;
+  --color-ink-300: #9d9da3;
+  --color-ink-200: #c4c4c8;
+  --color-ink-100: #e2e2e4;
+
+  /* -- Color: Paper (warm off-white, reading surface) -- */
+  --color-paper-50: #fdfcfa;
+  --color-paper-100: #faf8f4;
+  --color-paper-200: #f2efe8;
+  --color-paper-300: #e8e3d8;
+
+  /* -- Color: Zenith Gold (single signature accent) -- */
+  --color-zenith-200: #f1dfa8;
+  --color-zenith-300: #e8c468;
+  --color-zenith-400: #d9a934;
+  --color-zenith-500: #c9962a;
+  --color-zenith-600: #a8791f;
+  --color-zenith-700: #7d5a18;
+
+  /* -- Color: Signal (crisis / recovery, muted editorial tones, not neon) -- */
+  --color-crisis-300: #d68a72;
+  --color-crisis-400: #b3644f;
+  --color-crisis-500: #96493d;
+  --color-recovery-300: #7fae95;
+  --color-recovery-400: #5c8a72;
+  --color-recovery-500: #46705a;
+
+  /* Semantic surface/content roles (theme-aware, see [data-theme] below).
+     Components should prefer these over the raw ink and paper scales for anything
+     that lives in a light reading surface, so it correctly flips in dark mode. The
+     raw ink-950 / paper-50 scale stays reserved for sections that are dark by
+     design in both themes (Hero, Footer, glass panels) -- those don't need to
+     change at all. */
+  --color-surface: #faf8f4;
+  --color-surface-raised: #fdfcfa;
+  --color-surface-sunken: #f2efe8;
+  --color-surface-border: #e8e3d8;
+  --color-content: #111113;
+  --color-content-secondary: #3a3a40;
+  --color-content-tertiary: #6a6a72;
+  --color-line: #111113;
+
+  /* -- Motion -- */
+  --ease-editorial: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* -- Radius -- */
+  --radius-card: 0.25rem;
+}
+
+[data-theme="dark"] {
+  --color-surface: #1c1c1e;
+  --color-surface-raised: #242426;
+  --color-surface-sunken: #18181a;
+  --color-surface-border: #333335;
+  --color-content: #f5f5f7;
+  --color-content-secondary: #b5b5ba;
+  --color-content-tertiary: #8e8e93;
+  --color-line: #f5f5f7;
+
+  color-scheme: dark;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  body {
+    @apply bg-surface text-content font-serif antialiased;
+    margin: 0;
+    font-feature-settings: "kern" 1, "liga" 1;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    transition: background-color 0.35s var(--ease-editorial), color 0.35s var(--ease-editorial);
+  }
+
+  ::selection {
+    @apply bg-zenith-300/40 text-ink-950;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-zenith-500);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
+@layer utilities {
+  .prose-editorial {
+    @apply font-serif text-content-secondary;
+    font-size: clamp(1.0625rem, 0.5vw + 1rem, 1.1875rem);
+    line-height: 1.75;
+  }
+
+  .container-editorial {
+    @apply mx-auto w-full max-w-[1200px] px-6 sm:px-8 lg:px-12;
+  }
+
+  .container-reading {
+    @apply mx-auto w-full max-w-[720px] px-6 sm:px-8;
+  }
+
+  .skip-link {
+    @apply sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:rounded focus:bg-ink-950 focus:px-4 focus:py-3 focus:text-paper-50 focus:font-sans focus:text-sm;
+  }
+
+  .link-underline {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 1px;
+    transition: background-size 0.3s var(--ease-editorial);
+  }
+  .link-underline:hover,
+  .link-underline:focus-visible {
+    background-size: 100% 1px;
+  }
+
+  /* Brief brand-mark entrance, not a real loading state -- the page is already
+     fully rendered underneath (prerendered HTML). Pure CSS so it never depends
+     on JS/hydration timing, capped short, and skipped entirely for reduced-motion
+     so it never reads as an artificial delay. */
+  .brand-loader {
+    position: fixed;
+    inset: 0;
+    z-index: 90;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-ink-950);
+    pointer-events: none;
+    animation: brand-loader-out 550ms ease-out forwards;
+  }
+
+  .brand-loader span {
+    opacity: 0;
+    animation: brand-loader-mark-in 350ms ease-out forwards;
+  }
+
+  @keyframes brand-loader-out {
+    0%,
+    35% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+
+  @keyframes brand-loader-mark-in {
+    from {
+      opacity: 0;
+      transform: scale(0.96);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .brand-loader {
+      display: none;
+    }
+  }
+
+  /* Liquid-glass panel for surfaces on the theme-aware content background
+     (adapts automatically to light/dark via the surface/content tokens). */
+  .glass {
+    background: color-mix(in srgb, var(--color-surface) 62%, transparent);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid color-mix(in srgb, var(--color-content) 10%, transparent);
+    box-shadow:
+      inset 0 1px 0 0 color-mix(in srgb, var(--color-content) 10%, transparent),
+      0 8px 32px -12px rgba(0, 0, 0, 0.25);
+  }
+
+  /* Same as .glass but at 50% opacity specifically for the sticky header --
+     kept separate from .glass so other surfaces (cards, panels, the mobile
+     nav) that reuse .glass aren't affected by this. */
+  .glass-header {
+    background: color-mix(in srgb, var(--color-surface) 50%, transparent);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid color-mix(in srgb, var(--color-content) 10%, transparent);
+    box-shadow:
+      inset 0 1px 0 0 color-mix(in srgb, var(--color-content) 10%, transparent),
+      0 8px 32px -12px rgba(0, 0, 0, 0.25);
+  }
+
+  /* Same treatment for the intentionally-dark sections (Hero, Footer, Connect)
+     that don't theme-swap -- tuned against a dark backdrop specifically. */
+  .glass-on-dark {
+    background: rgba(253, 252, 250, 0.07);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid rgba(253, 252, 250, 0.14);
+    box-shadow:
+      inset 0 1px 0 0 rgba(253, 252, 250, 0.16),
+      0 8px 32px -12px rgba(0, 0, 0, 0.45);
+  }
+
+  /* Pointer-reactive specular highlight -- a soft light catching the glass at
+     the cursor position, driven by CSS custom properties a component sets on
+     mousemove. Defaults to centered/inert until JS sets --glow-x/--glow-y. */
+  .glass-specular {
+    position: relative;
+    isolation: isolate;
+  }
+
+  .glass-specular::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    background: radial-gradient(
+      380px circle at var(--glow-x, 50%) var(--glow-y, 50%),
+      color-mix(in srgb, var(--color-zenith-400) 22%, transparent),
+      transparent 70%
+    );
+  }
+
+  .glass-specular:hover::before {
+    opacity: 1;
+  }
+}

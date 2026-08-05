@@ -1,0 +1,193 @@
+export const apple = {
+  slug: 'apple',
+  name: 'Apple',
+  industry: 'Technology',
+  founded: 1976,
+  publishedAt: '2026-07-02',
+  headquarters: 'Cupertino, California, USA',
+  logline: 'Ninety days from bankruptcy to the most valuable company on Earth.',
+  turnaroundPeriod: '1997–2001',
+  heroKicker: '1997 · Ninety Days From Insolvency',
+  heroTitle: 'Apple: The Return of the King',
+  heroDeck:
+    'In the summer of 1997, Apple was weeks from running out of cash. Four years later, it had rewritten the rules of consumer technology — and set up the most valuable turnaround in corporate history.',
+  accent: { from: '#0a0a0b', via: '#3a3a3d', to: '#d9a934' },
+  seo: {
+    metaTitle: 'Apple\'s Turnaround: From Bankruptcy to $3 Trillion',
+    metaDescription:
+      'How Steve Jobs\' 1997 return and the iMac pulled Apple back from 90 days of bankruptcy to become the world\'s most valuable company.',
+    keywords: [
+      'apple turnaround story',
+      'steve jobs return to apple 1997',
+      'how apple avoided bankruptcy',
+      'apple near bankruptcy 1997',
+      'apple corporate turnaround case study',
+      'think different campaign apple',
+    ],
+  },
+  recoveryStat: {
+    metric: 'Market Capitalization',
+    before: { label: '1997', value: '~$1.7–3B' },
+    after: { label: '2022', value: '$3T+' },
+  },
+  quickFacts: [
+    { label: 'Founded', value: '1976, by Steve Jobs, Steve Wozniak & Ronald Wayne' },
+    { label: 'Low Point', value: '1997 — reportedly 90 days from insolvency' },
+    { label: 'Turnaround Leader', value: 'Steve Jobs, returned as interim CEO in 1997' },
+    { label: 'Turnaround Window', value: '1997 – 2001' },
+    { label: 'Market Cap, 1997', value: 'Roughly $1.7–3 billion' },
+    { label: 'Market Cap, Peak (2022)', value: 'Over $3 trillion' },
+    { label: 'Signature Move', value: 'Product-line simplification, then iMac and iPod' },
+  ],
+  timeline: [
+    { year: '1976', phase: 'rise', title: 'Two Steves in a Garage', description: 'Steve Jobs and Steve Wozniak found Apple Computer to sell the Apple I, followed by the breakout Apple II — one of the first mass-market personal computers.' },
+    { year: '1985', phase: 'fall', title: 'Jobs Forced Out', description: 'After a boardroom power struggle with CEO John Sculley, Jobs resigns from the company he co-founded and starts NeXT.' },
+    { year: '1993–1996', phase: 'fall', title: 'A Company Without a Compass', description: 'Under a succession of CEOs, Apple\'s product line balloons to dozens of overlapping Macintosh models. Market share collapses against Windows PCs.' },
+    { year: '1996', phase: 'crisis', title: 'Apple Buys NeXT', description: 'Desperate for modern operating system technology, Apple acquires Jobs\' NeXT for roughly $400 million, bringing Jobs back as an informal adviser.' },
+    { year: '1997', phase: 'crisis', title: 'The Brink', description: 'Apple posts over a billion dollars in annual losses. Jobs later says the company was "walking around, dead" — some accounts put it as little as 90 days from running out of cash.' },
+    { year: '1997', phase: 'turnaround', title: 'Jobs Returns, Gil Amelio Ousted', description: 'The board removes CEO Gil Amelio; Jobs steps in as interim CEO ("iCEO") and begins an immediate, brutal restructuring.' },
+    { year: '1997', phase: 'turnaround', title: 'The Microsoft Deal', description: 'At Macworld Boston, Jobs announces a $150 million investment from arch-rival Microsoft and a patent cross-licensing deal, ending years of litigation and stabilizing confidence in Apple\'s survival.' },
+    { year: '1998', phase: 'turnaround', title: 'The iMac Ships', description: 'The candy-colored, all-in-one iMac G3 sells 800,000 units in its first five months, Apple\'s fastest-selling computer ever, and returns the company to profitability.' },
+    { year: '2001', phase: 'turnaround', title: 'iPod and the Apple Store', description: 'Apple launches the iPod and opens its first retail stores, building the ecosystem and direct customer relationships that would fund the next two decades of growth.' },
+    { year: '2011', phase: 'zenith', title: 'World\'s Most Valuable Company', description: 'Apple briefly overtakes ExxonMobil as the most valuable public company by market capitalization.' },
+    { year: '2018–2022', phase: 'zenith', title: '$1 Trillion, Then $3 Trillion', description: 'Apple becomes the first U.S. company to reach a $1 trillion valuation in 2018, then the first to reach $3 trillion in 2022.' },
+  ],
+  sections: [
+    {
+      id: 'rise',
+      eyebrow: 'Rise',
+      heading: 'From a Garage in Los Altos to a Cultural Icon',
+      paragraphs: [
+        'Apple Computer began in 1976 the way a disproportionate number of Silicon Valley legends do: in a garage, with two founders who complemented each other almost too perfectly. Steve Wozniak was the engineer, capable of designing an entire computer board with an elegance that bordered on art. Steve Jobs was the salesman and the visionary, obsessed less with what a machine could do than with what it could mean to the person using it.',
+        'The Apple II, launched in 1977, turned that combination into one of the first true mass-market personal computers, complete with color graphics and an open architecture that invited a wave of third-party software. By the early 1980s, Apple was a Wall Street darling, and its 1980 IPO created more instant millionaires than any public offering before it.',
+        'The 1984 Macintosh advance the company\'s ambitions further, introducing the graphical user interface and mouse to a mainstream audience via one of the most celebrated advertisements ever aired, Ridley Scott\'s "1984" Super Bowl spot. Apple wasn\'t just selling computers. It was selling the idea that technology could be humane, even rebellious, in the same breath.',
+      ],
+    },
+    {
+      id: 'fall',
+      eyebrow: 'Fall',
+      heading: 'The Exile and the Drift',
+      paragraphs: [
+        'The same self-belief that made Jobs a visionary also made him difficult to manage. In 1985, after a power struggle with CEO John Sculley — a former Pepsi executive Jobs himself had recruited — the board sided with Sculley. Jobs was stripped of operational authority and resigned soon after, taking a handful of Apple engineers with him to found NeXT.',
+        'What followed was a decade of drift. Apple continued to sell well through the late 1980s on the strength of the Macintosh brand and desktop publishing, but the leadership churn was relentless: Sculley gave way to Michael Spindler, who gave way to Gil Amelio, each inheriting a company whose product strategy grew more incoherent with each cycle.',
+        'By the mid-1990s, Apple\'s lineup had metastasized into a bewildering array of nearly identical desktop models — the Performa, the Quadra, the Centris — differentiated mostly by which electronics retailer carried which configuration. Meanwhile, Microsoft\'s Windows 95 had closed the usability gap that once made the Macintosh special, and it ran on cheap, interchangeable hardware from a dozen manufacturers. Apple\'s market share, which had once approached 16 percent of the personal computer market, slid toward the low single digits.',
+        'Internally, engineering teams were chasing an operating system successor to the aging Mac OS and failing — a multi-year initiative called Copland was cancelled outright in 1996 after burning enormous resources without shipping a usable product. Apple was, in the words of one contemporary analyst, a company that had forgotten what it was for.',
+      ],
+    },
+    {
+      id: 'crisis',
+      eyebrow: 'Crisis',
+      heading: 'Ninety Days From the End',
+      paragraphs: [
+        'By 1997, the numbers had turned genuinely alarming. Apple reported a loss of more than a billion dollars for the fiscal year — at the time, one of the largest annual losses in Silicon Valley history. Market share continued to erode, cash reserves dwindled, and analysts openly speculated about acquisition by Sun Microsystems or an orderly wind-down.',
+        'Desperate for the modern, Unix-based operating system it could not build internally, Apple\'s board approved the acquisition of Jobs\' NeXT in December 1996 for roughly $400 million, intending to use NeXTSTEP as the foundation for a new Mac OS. The deal brought Jobs back into the building, initially as an unpaid, informal adviser to CEO Gil Amelio.',
+        'It did not take long for the adviser to become the story. Amelio, a respected engineer but an uneven communicator, struggled to convince Wall Street and Apple\'s own employees that a recovery plan existed. Jobs, watching from the sidelines, later described the company\'s condition bluntly: Apple, he said, was "walking around, dead." Multiple accounts from that period suggest the company had roughly ninety days of cash left before it would have been unable to meet its obligations — a fact Jobs himself referenced in later interviews about how close the company came to disappearing entirely.',
+        'In July 1997, the board removed Amelio. Jobs, still technically just an adviser and the head of Pixar, was asked to step in as interim CEO — a title he would hold, pointedly, for the next two and a half years, refusing a permanent appointment until he was certain the turnaround would hold.',
+      ],
+    },
+    {
+      id: 'turnaround',
+      eyebrow: 'Turnaround',
+      heading: 'The Fastest, Most Ruthless Restructuring in Tech History',
+      paragraphs: [
+        'Jobs moved with a speed that shocked even Apple veterans. Within weeks of taking control, he killed the Newton handheld, the OpenDoc software framework, the Cyberdog browser, and the licensing program that allowed third parties to build "Mac clones" — a program he believed was cannibalizing Apple\'s own hardware margins without growing the platform.',
+        'Then came the moment that, more than any other, signaled Apple\'s survival was not guaranteed on its own terms alone. At Macworld Boston in August 1997, Jobs announced a $150 million investment from Microsoft, alongside a patent cross-licensing agreement and a commitment to keep developing Microsoft Office for the Mac. The audience, watching Bill Gates appear by satellite feed above a giant screen, audibly gasped and booed — a decade of intense rivalry compressed into a single uncomfortable image. But the deal did exactly what it needed to do: it ended costly litigation, guaranteed a critical software partner would keep shipping for the platform, and, crucially, told every enterprise customer and journalist watching that Apple was not going out of business.',
+        'With the immediate threat contained, Jobs turned to the product line. He famously drew a two-by-two grid on a whiteboard — consumer and professional on one axis, desktop and portable on the other — and declared that Apple would build exactly four computers, one for each quadrant, and kill everything else. The decision eliminated roughly 70 percent of Apple\'s product portfolio in one stroke, a level of focus that would have been unthinkable at the sprawling Apple of 1996.',
+      ],
+    },
+    {
+      id: 'strategy',
+      eyebrow: 'Strategy',
+      heading: 'Simplify, Then Build an Ecosystem',
+      paragraphs: [
+        'The four-quadrant strategy was not just about cost-cutting; it was a bet that a smaller number of superb products would outsell a larger number of mediocre ones. The consumer-desktop slot in that grid became the iMac, launched in August 1998: a single, all-in-one unit in translucent Bondi Blue plastic, with the floppy drive removed entirely in favor of USB and a built-in handle that made the machine feel approachable rather than intimidating. It sold 800,000 units in its first five months, becoming the fastest-selling computer in Apple\'s history and returning the company to profitability within a year of Jobs\' return.',
+        'The following years extended the same logic outward from the computer itself. The 2001 launch of the iPod, paired later with the iTunes Music Store, gave Apple a foothold in an entirely new consumer category — digital music — at a moment when the rest of the industry was fumbling piracy and licensing. Apple\'s own retail stores, also opened in 2001 against widespread skepticism from analysts who predicted they would fail, gave the company direct control over how its products were experienced and sold, cutting out a layer of retail intermediaries that had diluted the brand for years.',
+        'Each move reinforced the others: hardware sold software and services, software and services deepened loyalty to the hardware, and stores let Apple tell that story directly to the customer without a middleman\'s interpretation. It was the beginning of the tightly integrated ecosystem — hardware, software, services, retail — that would define Apple for the next quarter-century, culminating in the iPhone in 2007 and, ultimately, the trillion-dollar valuations that followed.',
+      ],
+    },
+    {
+      id: 'leadership',
+      eyebrow: 'Leadership',
+      heading: 'The Return of a Founder, Tempered',
+      paragraphs: [
+        'Much of the popular telling of Apple\'s turnaround credits Jobs\' return almost mystically, as though charisma alone reversed a billion-dollar loss. The more accurate account is that Jobs in 1997 was a different executive than the one the board had ousted in 1985. Twelve years running NeXT and Pixar had taught him discipline in production timelines, patience with slow-burning creative bets, and — after NeXT\'s commercial struggles as a hardware company — a sharper sense of when to kill a product rather than nurse it.',
+        'He paired his own instincts with talent he trusted implicitly, elevating operations expert Tim Cook from Compaq in 1998 to overhaul Apple\'s manufacturing and inventory model, and designer Jony Ive, whom Jobs discovered was already inside Apple\'s design studio and had been quietly producing exceptional work that previous leadership had ignored. Where Jobs supplied vision and an almost tyrannical insistence on simplicity, Cook supplied the supply-chain precision that turned that vision into products that could actually be built, shipped, and sold at scale.',
+        'Jobs also negotiated his own authority carefully. By refusing the permanent CEO title until 2000, he preserved the option to walk away if the turnaround failed, while still exercising full operational control — a structure that gave him freedom to make unpopular decisions quickly, without the political drag of a conventional CEO search or transition period.',
+      ],
+    },
+    {
+      id: 'innovation',
+      eyebrow: 'Innovation',
+      heading: 'Designing for Feeling, Not Just Function',
+      paragraphs: [
+        'The iMac\'s translucent, colorful shell seems, in retrospect, like a marketing flourish. At the time, it was a radical departure for an industry that treated computers as beige office equipment. Jony Ive\'s design team built a machine that looked and felt like a consumer object — something you would want in a bedroom or kitchen, not just an office — years before "consumer electronics" and "personal computer" were treated as overlapping categories.',
+        'That same design philosophy underpinned the "Think Different" advertising campaign that launched alongside Jobs\' return, celebrating Einstein, Gandhi, Picasso, and Amelia Earhart rather than showing a single product. It was, in effect, a repositioning of the entire brand: Apple was reasserting an identity built around creativity and independent thinking, deliberately distancing itself from the utilitarian, spec-sheet-driven marketing that dominated the Windows PC industry it could no longer compete with on price.',
+        'The innovation that mattered most, though, was procedural rather than aesthetic: Apple under Jobs became relentlessly disciplined about saying no. Every feature, every product, every SKU had to earn its place, and the ones that didn\'t were cut without sentimentality — a cultural habit that persisted long after the immediate crisis had passed, and one that later shaped the far larger bets on the iPhone and iPad.',
+      ],
+    },
+    {
+      id: 'financial-recovery',
+      eyebrow: 'Financial Recovery',
+      heading: 'From a Billion-Dollar Loss to the World\'s Most Valuable Company',
+      paragraphs: [
+        'The financial trajectory from 1997 onward is one of the starkest reversals in corporate history. Apple\'s market capitalization at Jobs\' return is generally estimated in the range of $1.7 to $3 billion — a company that Michael Dell, asked in 1997 what he would do in Jobs\' position, suggested should simply be shut down and its cash returned to shareholders.',
+        'Instead, Apple returned to profitability within roughly a year, driven initially by the iMac and the disciplined cost structure of the four-quadrant product line. Growth accelerated through the 2000s as the iPod, iTunes, and retail stores diversified revenue beyond the Macintosh, and then compounded dramatically after the 2007 iPhone launch turned Apple into the center of the smartphone era.',
+        'By August 2011, Apple briefly surpassed ExxonMobil to become the world\'s most valuable public company. It crossed a $1 trillion valuation in 2018 — the first U.S. company to do so — reached $2 trillion in 2020, and touched $3 trillion in early 2022. A company that had been counting down its remaining solvent days in 1997 became, within a generation, the most valuable enterprise ever created, a reversal with few, if any, parallels in business history.',
+      ],
+      pullQuote: {
+        quote: 'Apple was walking around, dead. But nobody knew it yet.',
+        attribution: 'Steve Jobs, describing the company\'s condition in 1997',
+      },
+    },
+    {
+      id: 'lessons',
+      eyebrow: 'Lessons',
+      heading: 'What Apple\'s Turnaround Still Teaches',
+      paragraphs: [
+        'Apple\'s recovery is frequently reduced to a story about one irreplaceable individual, but the mechanics behind it generalize far beyond Cupertino. The most reproducible lesson is the discipline of subtraction: Jobs did not turn Apple around by adding new initiatives, he did it by killing roughly 70 percent of what the company was already doing and concentrating everything that remained on four products it could execute brilliantly.',
+        'The second lesson is that stabilizing a crisis and building a growth strategy are different tasks that require different moves, executed in sequence. The Microsoft deal was not a growth strategy — it was a signal of survival, designed to buy the calm required to make the harder decisions that followed. Confusing the two, or trying to do both at once, is a common reason turnarounds stall.',
+        'The third lesson concerns talent allocation under constraint. With limited cash, Jobs did not hire broadly; he concentrated authority in a small number of people he trusted completely — Cook on operations, Ive on design — and gave them unusual latitude relative to their formal seniority at the time. A resource-constrained turnaround rewards a few empowered decision-makers over a large, consensus-driven organization.',
+        'Finally, Apple\'s ecosystem strategy — hardware, software, services, and retail reinforcing one another — illustrates that a turnaround\'s second act is rarely a single hit product. The iMac stopped the bleeding. It was the compounding architecture built over the following three years that turned a stabilized company into an enduringly dominant one.',
+      ],
+    },
+  ],
+  keyTakeaways: [
+    'Radical subtraction can be more powerful than radical addition: killing 70% of Apple\'s product line in 1997 created the focus needed to execute well on what remained.',
+    'A strategic investment or partnership (the Microsoft deal) can function purely as a stabilizing signal to the market, separate from any long-term strategic alliance.',
+    'Concentrating trust and authority in a small number of proven operators (Cook, Ive) can outperform broad, consensus-driven decision-making during a crisis.',
+    'Design and brand identity are not cosmetic; the iMac\'s look and the "Think Different" campaign repositioned Apple\'s entire value proposition, not just its products.',
+    'A turnaround has distinct phases — stop the bleeding, then build compounding growth — and conflating them is a common cause of failed recoveries.',
+    'Refusing a permanent title (Jobs stayed "interim CEO" for over two years) can preserve strategic optionality while a leader proves out a recovery plan.',
+  ],
+  faq: [
+    {
+      question: 'How close was Apple actually to bankruptcy in 1997?',
+      answer: 'Apple posted a loss of more than a billion dollars for fiscal 1996–97, and multiple contemporary and later accounts, including comments from Steve Jobs himself, suggest the company had roughly ninety days of operating cash left before it would have defaulted on its obligations. It was never a formal Chapter 11 filing, but the company was widely regarded by analysts and even competitors like Michael Dell as a candidate for shutdown or acquisition.',
+    },
+    {
+      question: 'Why did Microsoft invest in Apple in 1997?',
+      answer: 'The $150 million investment settled a long-running patent dispute and secured Microsoft\'s commitment to keep developing Office for Macintosh, which was critical to Apple\'s credibility with business customers. It also served Microsoft\'s own interests: a competitive Apple helped deflect antitrust scrutiny Microsoft was facing at the time over its dominance of the PC operating system market.',
+    },
+    {
+      question: 'What was the "four-quadrant" strategy Steve Jobs introduced?',
+      answer: 'Jobs organized Apple\'s entire product roadmap around a two-by-two grid: consumer versus professional on one axis, desktop versus portable on the other. Apple would build exactly one flagship product for each quadrant — eventually the iMac, Power Mac G3, iBook, and PowerBook — and discontinue nearly everything else, eliminating an estimated 70% of the existing product line.',
+    },
+    {
+      question: 'How long did it take Apple to return to profitability after Jobs returned?',
+      answer: 'Apple returned to profitability within roughly a year of Jobs\' return in 1997, aided significantly by the success of the iMac, which launched in August 1998 and sold 800,000 units in its first five months.',
+    },
+    {
+      question: 'Did Steve Jobs turn Apple around alone?',
+      answer: 'No. While Jobs set the vision and made the decisive early cuts, the turnaround relied heavily on Tim Cook, recruited in 1998 to fix Apple\'s manufacturing and inventory operations, and Jony Ive, whose design team had already been producing strong work under previous leadership but lacked the organizational backing to ship it.',
+    },
+  ],
+  sources: [
+    { label: 'Apple Inc. Annual Reports, 1996–2001 (Form 10-K filings)', publisher: 'U.S. Securities and Exchange Commission', url: 'https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Apple+Inc&type=10-K&dateb=&owner=include&count=40' },
+    { label: '"Steve Jobs"', publisher: 'Walter Isaacson, Simon & Schuster', year: '2011' },
+    { label: '"Return to the Little Kingdom"', publisher: 'Michael Moritz, Overlook Press', year: '2009' },
+    { label: 'Macworld Boston 1997 Keynote Archives', publisher: 'Apple Inc.' },
+    { label: 'Apple market capitalization milestones reporting', publisher: 'The Wall Street Journal' },
+    { label: 'Apple market capitalization milestones reporting', publisher: 'Reuters' },
+  ],
+  relatedSlugs: ['microsoft', 'adobe', 'nintendo'],
+}
