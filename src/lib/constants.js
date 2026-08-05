@@ -3,7 +3,7 @@ export const SITE = {
   shortName: 'Dust to Zenith',
   tagline: 'The Greatest Business Turnarounds in History',
   description:
-    'Long-form, documentary-style case studies on history’s greatest corporate turnarounds — the rise, the fall, the crisis, and the strategy that brought each company back from the brink.',
+    'Long-form, documentary-style case studies on history’s greatest corporate turnarounds: the rise, the fall, the crisis, and the strategy that brought each company back from the brink.',
   url: 'https://from-dust-to-zenith.vercel.app',
   locale: 'en_US',
   founded: 2026,

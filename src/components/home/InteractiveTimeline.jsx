@@ -16,7 +16,7 @@ export default function InteractiveTimeline() {
         A Century of Comebacks
       </p>
       <h2 id="timeline-section-heading" className="mt-3 max-w-2xl font-display text-3xl font-medium text-content sm:text-4xl">
-        Every era has its collapse — and its comeback.
+        Every era has its collapse, and its comeback.
       </h2>
 
       <ol className="relative mt-14 space-y-0 border-l border-content/15 pl-8 sm:pl-10">

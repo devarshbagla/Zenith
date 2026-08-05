@@ -20,7 +20,7 @@ export default function HomePage() {
   return (
     <>
       <SEO
-        title={`${SITE.name} — ${SITE.tagline}`}
+        title={`${SITE.name}: ${SITE.tagline}`}
         description={SITE.description}
         path="/"
         schema={[websiteSchema(), organizationSchema()]}
