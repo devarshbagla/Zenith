@@ -72,7 +72,7 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
           className="mt-6 max-w-2xl font-serif text-lg leading-relaxed text-paper-200 sm:text-xl"
         >
-          Documentary-style case studies on history&rsquo;s greatest business turnarounds — the
+          Documentary-style case studies on history&rsquo;s greatest business turnarounds: the
           rise, the fall, the crisis, and the strategy that brought each company back from the
           brink.
         </m.p>

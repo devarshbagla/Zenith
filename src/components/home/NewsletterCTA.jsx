@@ -19,7 +19,7 @@ export default function NewsletterCTA() {
           </h2>
           <p className="mt-4 font-serif text-base leading-relaxed text-paper-300">
             Get the next case study, key lessons, and behind-the-scenes sourcing notes delivered
-            straight to your inbox. No noise, no spam — just the stories.
+            straight to your inbox. No noise, no spam, just the stories.
           </p>
           <Button to="/newsletter" variant="inverse" className="mt-8">
             Join the Newsletter

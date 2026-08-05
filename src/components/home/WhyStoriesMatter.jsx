@@ -3,7 +3,7 @@ import { m, useReducedMotion } from 'framer-motion'
 const REASONS = [
   {
     title: 'Strategy, not summary',
-    body: 'Every case study traces the actual decisions — the financing, the org-chart changes, the product bets — not just the headline outcome. Built for readers who need the mechanism, not the moral.',
+    body: 'Every case study traces the actual decisions: the financing, the org-chart changes, the product bets, not just the headline outcome. Built for readers who need the mechanism, not the moral.',
   },
   {
     title: 'Sourced and verifiable',
