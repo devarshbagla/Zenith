@@ -83,10 +83,10 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
           className="mt-10 flex flex-wrap items-center gap-4"
         >
-          <Button to="/stories" variant="inverse">
+          <Button to="/stories" variant="inverse" className="!rounded-2xl">
             Start Reading
           </Button>
-          <Button to="/lessons" variant="ghost" className="text-paper-100 hover:bg-paper-50/10">
+          <Button to="/lessons" variant="ghost" className="!rounded-2xl text-paper-100 hover:bg-paper-50/10">
             Explore the Lessons
           </Button>
         </m.div>
